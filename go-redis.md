@@ -1,6 +1,5 @@
 # go-redis
 
-<<<<<<< HEAD
 #### 准备环境
 
 ```
@@ -8,8 +7,6 @@ docker run --name redis001 -p 6379:6379 -d redis
 docker run -it --network host --rm redis redis-cli
 ```
 
-=======
->>>>>>> 640f3bb2755664afc7fd1b3a7e9d232632ca6e13
 #### 下载依赖
 
 `import "github.com/redis/go-redis/v9"`
@@ -17,6 +14,7 @@ docker run -it --network host --rm redis redis-cli
 #### 连接
 
 ###### 普通连接
+
 <<<<<<< HEAD
 
 ```
@@ -500,5 +498,12 @@ fmt.Println("最终结果：", n, err)
 ```
 
 在这个示例中使用了 `redis.TxFailedErr` 来检查事务是否失败
-=======
+======================================
+
 >>>>>>> 640f3bb2755664afc7fd1b3a7e9d232632ca6e13
+>>>>>>>
+>>>>>>
+>>>>>
+>>>>
+>>>
+>>
