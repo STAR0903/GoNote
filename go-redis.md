@@ -15,8 +15,6 @@ docker run -it --network host --rm redis redis-cli
 
 ###### 普通连接
 
-<<<<<<< HEAD
-
 ```
 func initClient() error {
 	//redis.NewClient 函数连接 Redis 服务器
@@ -498,12 +496,3 @@ fmt.Println("最终结果：", n, err)
 ```
 
 在这个示例中使用了 `redis.TxFailedErr` 来检查事务是否失败
-======================================
-
->>>>>>> 640f3bb2755664afc7fd1b3a7e9d232632ca6e13
->>>>>>>
->>>>>>
->>>>>
->>>>
->>>
->>
